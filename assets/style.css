@@ -9,8 +9,43 @@
     font-family: "League Spartan", sans-serif;
     text-decoration: none;
     transition: ease-in-out 0.3s;
+    color: #e6e6e6;
   }
 
 body {
     background-color: #3A3A3C;
+    text-align: center;
+}
+
+.quadrado {
+  text-align: center;
+  width: 120px;
+  background-color: #e6e6e6;
+  display: inline-block;
+  padding: 50px;
+  margin: 5px;
+  font-size: 40px;
+  cursor: pointer;
+  color: #e6e6e6;
+  border-radius: 4px;
+  box-shadow: #121212;
+}
+
+.jogador, .vencedor {
+  font-size: 32px;
+  margin-top: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #121212;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
