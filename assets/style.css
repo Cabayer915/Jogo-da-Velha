@@ -13,22 +13,29 @@
   }
 
 body {
-    background-color: #3A3A3C;
+    background-color: darkseagreen;
     text-align: center;
 }
 
 .quadrado {
   text-align: center;
-  width: 120px;
+  width: 110px;
   background-color: #e6e6e6;
   display: inline-block;
-  padding: 50px;
+  padding: 40px;
   margin: 5px;
   font-size: 40px;
   cursor: pointer;
   color: #e6e6e6;
   border-radius: 4px;
   box-shadow: #121212;
+}
+
+.corpo-card {
+  background-image: url("./Galaxy12.jpg");
+  width: 32rem;
+  border-radius: 25px;
+  margin-top: 1rem;
 }
 
 .jogador, .vencedor {
@@ -43,9 +50,30 @@ button {
   cursor: pointer;
   font-size: 16px;
   color: #121212;
+  margin-bottom: 1rem;
 }
 
 h1 {
   margin-bottom: 1rem;
-  margin-top: 1rem;
+  padding-top: 2rem;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+
+.card-status {
+  flex-direction: column;
+  background-color: #121212;
+  width: 24rem;
+  border-radius: 12px;
+}
+
+.card-status .textos h2 {
+  margin-bottom: 2rem;
 }
