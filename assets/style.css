@@ -29,6 +29,7 @@ body {
   color: #e6e6e6;
   border-radius: 4px;
   box-shadow: #121212;
+  user-select: none;
 }
 
 .corpo-card {
